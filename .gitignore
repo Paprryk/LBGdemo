@@ -1,1 +1,10 @@
+#Every file in logs directory will be ignored
 /logs/
+
+# Every file that starts with a dot will be ignored
+.*
+
+#This will exclude gitignore from that
+!.gitignore
+
+
